@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--                      ==CSS Styles==                                     -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <!--                      ==FAVICONE==                                     -->
+  <link rel="shortcut icon" href="imgs/favicon-32x32.png" type="image/x-icon">
+  <!--                      ==REMIXICONE==                                     -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Profolio</title>
+</head>
+<body>
+  <!--                      ==HEADER==                                     -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Salah</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="ri-home-5-line"></i> Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="ri-trophy-line"></i> Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="ri-book-open-line"></i> Qualification
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">
+              <i class="ri-briefcase-line"></i> Services
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#projects" class="nav__link">
+              <i class="ri-image-line"></i> Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="ri-chat-3-line"></i> Contact
+            </a>
+          </li>
+        </ul>
+        <!--Close Button-->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+      <div class="nav__buttons">
+        <!-- Theme Change button -->
+        <i class="ri-moon-line change-theme" id="theme-button"></i>
+        <!-- Toggle button  -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-4-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--                      ==MAIN==                                     -->
+  <main class="main">
+    <!--                      ==HOME==                                     -->
+    <section class="home section" id="home">
+      <div class="home__container container grid section__border">
+        <div class="home__data grid">
+          <h1 class="home__title">
+            Hi, I'm Salah <br>
+            Frontend Developer <br>
+            Based In Jordan <br>
+          </h1>
+          <div class="home__blob grid">
+            <div class="home__prefil">
+              <img src="imgs/profile.png" alt="Profile img">
+            </div>
+          </div>
+          <ul class="home__social">
+            <a href="https://github.com/salah-younis93" target="_blank" class="home__social-link">
+              <i class="ri-github-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/salah-younis-9b67a6193" target="_blank" class="home__social-link">
+              <i class="ri-linkedin-box-line"></i>
+            </a>
+            <a href="https://www.instagram.com/salah_younis93/" target="_blank" class="home__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+          </ul>
+        </div>
+        <div class="home__info one">
+          <div>
+            <h3 class="home__info-title">
+              BIOGRAPHY
+            </h3>
+            <p class="home__info-description">
+              Hi, I'm Salah, Frontend Developer.
+              Passionate about Desining An Amezing Web Interface. Based In Jordan.
+            </p>
+          </div>
+          <div>
+            <h3 class="home__info-title">
+              CONTACT
+            </h3>
+            <p class="home__info-description">
+              Jordan, Amman <br>
+              salahyouniswc@gmail.com <br>
+              +962782758054
+            </p>
+          </div>
+          <div>
+            <h3 class="home__info-title">
+              SERCIVES
+            </h3>
+            <p class="home__info-description">
+              Web Design <br>
+              Web Development <br>
+              UI/UX Design <br>
+            </p>
+          </div>
+        </div>
+        <div class="home__info two">
+          <div>
+            <h3 class="home__info-title">YEARS OF EXPERIENCE</h3>
+            <p class="home__info-number">01+</p>
+          </div>
+          <div>
+            <h3 class="home__info-title">COMPLETED PROJECTS</h3>
+            <p class="home__info-number">06+</p>
+          </div>
+          <div>
+            <h3 class="home__info-title">COMPANIES WORKED</h3>
+            <p class="home__info-number">03+</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                      ==SKILLS==                                     -->
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+      <span class="section__subtitle">My Favorate Skills</span>
+      <div class="skills__container container grid section__border">
+        <!--                      ==Skill 1==                                     -->
+        <div class="skills__content">
+          <h3 class="skills__title">
+            <i class="ri-braces-line"></i> Frontend Developer</h3>
+          <div class="skills__info">
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/html-1.svg" alt="skills image">
+              </div>
+              <h3 class="skills__name">HTML</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/css-3.svg" alt="skills image">
+              </div>
+              <h3 class="skills__name">CSS</h3>
+              <span class="skills__subtitle">Advanced</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/javascript-1.svg" alt="skills image">
+              </div>
+              <h3 class="skills__name">Java Script</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/react-2.svg" alt="skills image">
+              </div>
+              <h3 class="skills__name">React</h3>
+              <span class="skills__subtitle">Basic</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/git-icon.svg" alt="skills image">
+              </div>
+              <h3 class="skills__name">Git(Github)</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+          </div>
+        </div>
+        <!--                      ==Skill 2 ==                                     -->
+        <div class="skills__content">
+          <h3 class="skills__title">
+          <i class="ri-pantone-line"></i>Web Design</h3>
+          <div class="skills__info">
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/figma.png" alt="skills image">
+              </div>
+              <h3 class="skills__name">Figma</h3>
+              <span class="skills__subtitle">Basic</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/skitch-removebg-preview.png" alt="skills image">
+              </div>
+              <h3 class="skills__name">Skitch</h3>
+              <span class="skills__subtitle">Basic</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/adobe-xd-1.svg" alt="skills image">
+              </div>
+              <h3 class="skills__name">Adobe XD</h3>
+              <span class="skills__subtitle">Intermediate</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/adobe-photoshop-2.svg" alt="skills image">
+              </div>
+              <h3 class="skills__name">Photoshop</h3>
+              <span class="skills__subtitle">Basic</span>
+            </div>
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="imgs/invision.png" alt="skills image">
+              </div>
+              <h3 class="skills__name">InvisionApp</h3>
+              <span class="skills__subtitle">Basic</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                      ==Qualification==                                     -->
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">Experience & Education</span>
+      <div class="qualification__container container grid section__border">
+        <!--                      ==Qualifacation 1==                                     -->
+        <div class="qualification__content">
+          <h3 class="qualification__title">
+            <i class="ri-pencil-ruler-2-line"></i>Education
+          </h3>
+          <div class="qualification__info">
+
+            <div>
+              <h3 class="qualification__name">Bacholar in English Literature</h3>
+              <span class="qualification__country">Zarqa - University</span>
+              <span class="qualification__year">2015 - 2019</span>
+            </div>
+            <div>
+              <h3 class="qualification__name">Bacholar in English Literature</h3>
+              <span class="qualification__country">Zarqa - University</span>
+              <span class="qualification__year">2015 - 2019</span>
+            </div>
+            <div>
+              <h3 class="qualification__name">Bacholar in English Literature</h3>
+              <span class="qualification__country">Zarqa - University</span>
+              <span class="qualification__year">2015 - 2019</span>
+            </div>
+          </div>
+        </div>
+        <!--                      ==Qualifacation 2==                                     -->
+        <div class="qualification__content">
+          <h3 class="qualification__title">
+            <i class="ri building-line"></i>Work
+          </h3>
+          <div class="qualification__info">
+            <div>
+              <h3 class="qualification__name">Frontend Developer</h3>
+              <span class="qualification__country">U.S.A</span>
+              <span class="qualification__year">2020 - 2022</span>
+            </div>
+            <div>
+              <h3 class="qualification__name">Frontend Developer</h3>
+              <span class="qualification__country">U.S.A</span>
+              <span class="qualification__year">2020 - 2022</span>
+            </div>
+            <div>
+              <h3 class="qualification__name">Frontend Developer</h3>
+              <span class="qualification__country">U.S.A</span>
+              <span class="qualification__year">2020 - 2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--                      ==SERVICES==                                     -->
+    <section class="services section" id="services">
+      <h2 class="section__title">Services</h2>
+      <span class="section__subtitle">What I Offer</span>
+      <div class="services__container container grid section__border">
+        <div class="services__card">
+          <i class="ri-layout-4-line"></i>
+          <h2 class="services__title">UI/UX<br>Design</h2>
+          <p class="services__description">Services that provides the best quality and at the request of the client, with professional work and customer support.</p>
+          <div class="services__border"></div>
+        </div>
+
+        <div class="services__card">
+          <i class="ri-code-line"></i>
+          <h2 class="services__title">Website<br>Design</h2>
+          <p class="services__description">Services that provides the best quality and at the request of the client, with professional work and customer support.</p>
+          <div class="services__border"></div>
+        </div>
+
+        <div class="services__card">
+          <i class="ri-quill-pen-line"></i>
+          <h2 class="services__title">Digital<br>Animator</h2>
+          <p class="services__description">Services that provides the best quality and at the request of the client, with professional work and customer support.</p>
+          <div class="services__border"></div>
+        </div>
+      </div>
+    </section>
+    <!--                      ==PROJECTS==                                     -->
+    <section class="projects section" id="projects">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most Recent Work</span>
+
+      <div class="container section__border">
+        <div class="projects__container swiper  swiper-projects">
+          <div class="swiper-wrapper">
+            <!--                      ==PROJECT 1==                                     -->
+            <div class="projects__content swiper-slide">
+              <img src="imgs/jq1 (1).PNG" alt="Project" class="projects__img">
+              <div>
+            <span class="projects__subtitle">Website</span>
+            <h1 class="projects__title">Gaming Site</h1>
+            <a href="https://salah-younis93.github.io/Coding-Services/" class="projects__button" target="_blank">
+              View Demo <i class="ri-arrow-right-line"></i>
+            </a>
+            </div>
+          </div>
+            <!--                      ==PROJECT 2==                                     -->
+            <div class="projects__content swiper-slide">
+              <img src="imgs/jq1 (2).PNG" alt="Project" class="projects__img">
+              <div>
+            <span class="projects__subtitle">Controls</span>
+            <h1 class="projects__title">Dashboard</h1>
+            <a href="https://salah-younis93.github.io/Dashboard/" class="projects__button" target="_blank">
+              View Demo <i class="ri-arrow-right-line"></i>
+            </a>
+            </div>
+          </div>
+            <!--                      ==PROJECT 3==                                     -->
+            <div class="projects__content swiper-slide">
+              <img src="imgs/jq1 (3).PNG" alt="Project" class="projects__img">
+              <div>
+            <span class="projects__subtitle">Advertisement</span>
+            <h1 class="projects__title">Translation Company</h1>
+            <a href="https://salah-younis93.github.io/Glopalize-Translation/" class="projects__button" target="_blank">
+              View Demo <i class="ri-arrow-right-line"></i>
+            </a>
+            </div>
+          </div>
+            <!--                      ==PROJECT 4==                                     -->
+            <div class="projects__content swiper-slide">
+              <img src="imgs/jq1 (4).PNG" alt="Project" class="projects__img">
+              <div>
+            <span class="projects__subtitle">Services</span>
+            <h1 class="projects__title">Service Agency</h1>
+            <a href="https://salah-younis93.github.io/KASPER-Services-Site/" class="projects__button" target="_blank">
+              View Demo <i class="ri-arrow-right-line"></i>
+            </a>
+            </div>
+          </div>
+            <!--                      ==PROJECT 5==                                     -->
+            <div class="projects__content swiper-slide">
+              <img src="imgs/jq1.PNG" alt="Project" class="projects__img">
+              <div>
+            <span class="projects__subtitle">Introduction</span>
+            <h1 class="projects__title">Profolio</h1>
+            <a href="https://salah-younis93.github.io/Profolio/" class="projects__button" target="_blank">
+              View Demo <i class="ri-arrow-right-line"></i>
+            </a>
+            </div>
+          </div>
+          </div>
+          <div class="swiper-button-next">
+            <i class="ri-arrow-right-s-line"></i>
+          </div>
+
+          <div class="swiper-button-prev">
+            <i class="ri-arrow-left-s-line"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!--                      ==TESTIMONIAL==                                     -->
+    <section class="testimonial section">
+      <h2 class="section__title">Testimonial</h2>
+      <span class="section__subtitle">My Clients Are Saying</span>
+      <div class="container section__border">
+        <div dir="rtl" class="testimonial__container swiper">
+          <div class="swiper-wrapper">
+<!--                      ==TESTIMONIAL 1==                                     -->
+<div class="testimonial__content swiper-slide">
+  <p class="testimonial__description">
+    "I was blown away by the website that Salah created for my small business. The site is visually stunning
+    and incredibly user-friendly. Salah took the time to understand my brand and my target audience, and it
+    really shows in the final product. I couldn't be happier with the outcome!"
+  </p>
+  <div>
+    <h3 class="testimonial__name">Kyle G.</h3>
+    <span class="testimonial__subtitle">Client</span>
+  </div>
+</div>
+<div class="testimonial__content swiper-slide">
+  <p class="testimonial__description">
+    "Working with Salah was an absolute pleasure. He was incredibly responsive and communicative throughout
+    the entire process, and always took the time to answer my questions and concerns. The website he built for my
+    non-profit organization is beautiful and functional, and I'm so grateful for his hard work."
+  </p>
+  <div>
+    <h3 class="testimonial__name">Joe Deasle</h3>
+    <span class="testimonial__subtitle">Client</span>
+  </div>
+</div>
+<div class="testimonial__content swiper-slide">
+  <p class="testimonial__description">
+    "I had a very specific vision in mind for my personal portfolio website, and Salah brought that vision to
+    life perfectly. He was patient with my feedback and suggestions, and always made sure that I was happy with the
+    direction the project was going in. I highly recommend Salah to anyone looking for a talented and
+    professional web developer."
+  </p>
+  <div>
+    <h3 class="testimonial__name">Mohammed S.</h3>
+    <span class="testimonial__subtitle">Client</span>
+  </div>
+</div>
+<div class="testimonial__content swiper-slide">
+  <p class="testimonial__description">
+    "As someone with very little technical knowledge, I was nervous about hiring a web developer to build my online store.
+    However, Salah put my mind at ease from the very beginning with their clear and patient explanations of the
+    development process. He built me a beautiful and easy-to-navigate e-commerce site that has exceeded my expectations.
+    I'm so glad I chose to work with Salah!"
+  </p>
+  <div>
+    <h3 class="testimonial__name">Abdullah Atef</h3>
+    <span class="testimonial__subtitle">Client</span>
+  </div>
+</div>
+<div class="testimonial__content swiper-slide">
+  <p class="testimonial__description">
+    "I needed a custom WordPress plugin for my business, and Salah was the perfect person for the job. He was able to take my requirements and turn them into a fully-functional plugin in a very short amount of time. His
+    attention to detail and commitment to quality were impressive, and I'll definitely be coming back to Salah
+    for any future development needs."
+  </p>
+  <div>
+    <h3 class="testimonial__name">Anonymous</h3>
+    <span class="testimonial__subtitle">Client</span>
+  </div>
+</div>
+        </div>
+        <div class="swiper-button-next">
+          <i class="ri-arrow-left-s-line"></i>
+        </div>
+        <div class="swiper-button-prev">
+        <i class="ri-arrow-right-s-line"></i>
+        </div>
+        </div>
+      </div>
+      <img src="imgs/wave.png" alt="testimonial" class="testimonial__img">
+    </section>
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get In Touch</span>
+      <div class="contact__container container grid section__border">
+        <div class="contact__content">
+          <h3 class="contact__title">
+            <i class="ri-chat-3-line"></i>Talk to me
+          </h3>
+
+          <div class="contact__info">
+            <div class="contact__data">
+              <span class="contact__data-title">Email</span>
+              <span class="contact__data-info">Salahyouniswc@gmail.com</span>
+            </div>
+
+            <div class="contact__data">
+              <span class="contact__data-title">WhatsApp</span>
+              <span class="contact__data-info">+962782758054</span>
+
+              <a href="https://wa.link/siile1" target="_blank" class="contact__button">
+                Write Me <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+
+            <div class="contact__data">
+              <span class="contact__data-title">Messenger</span>
+              <span class="contact__data-info"></span>
+              <a href="https://m.me/salah.younis93" class="contact__button" target="_blank">
+                Write Me <i class="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__content">
+          <h3 class="contact__title">
+            <i class="ri-send-plane-line"></i>Write me your project
+          </h3>
+          <form action="" class="contact__form" id="contact-form">
+            <div class="contact__form-div one">
+              <label class="contact__form-tag">Name:</label>
+              <input type="text" id="contact-name" name="user_name" required placeholder="Write your name" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-div two">
+              <label class="contact__form-tag">E-mail:</label>
+              <input type="email" id="contact-email" name="user_email" required placeholder="Write your e-mail" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-div contact__form-area three">
+              <label class="contact__form-tag">Project:</label>
+              <textarea name="user_project" placeholder="Write your project" id="contact-project" class="contact__form-input"></textarea>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button class="contact__button submit__button" type="submit">Submit <i class="ri-arrow-right-up-line"></i></button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--                      ==FOOTER==                                     -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <h1 class="footer__title">Salah Younis</h1>
+      <p class="footer__subtitle">Frontend Developer</p>
+      <ul class="footer_list">
+        <li class="footer__list-li">
+          <a href="#home" class="footer__link">Home</a>
+        </li>
+        <li class="footer__list-li">
+          <a href="#skills" class="footer__link">Skills</a>
+        </li>
+        <li class="footer__list-li">
+          <a href="#projects" class="footer__link">Projects</a>
+        </li>
+      </ul>
+      <ul class="footer__social">
+        <a href="https://www.linkedin.com/in/salah-younis-9b67a6193" target="_blank" class="footer__social-link"><i class="ri-linkedin-box-line"></i></a>
+        
+        <a href="https://github.com/salah-younis93" target="_blank" class="footer__social-link"><i class="ri-github-line"></i></a>
+        
+        <a href="https://www.instagram.com/salah_younis93/" target="_blank" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+      </ul>
+
+      <span class="footer__copy">
+        &#169; Copyright SYMK Code. All Right Reserved
+      </span>
+    </div>
+  </footer>
+  <!--           SCROLL_UP BUTTON        -->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="ri-arrow-up-line"></i>
+  </a>
+  <script src="Js/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script src="Js/main.js"></script>
+</body>
+</html>
